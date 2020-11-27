@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+
+    <script>
+
+        var empresa="Gama Academy";
+        var curso="JavaScript";
+
+        //alert("Seja bem vindo ao curso de Java Script");
+
+        //alert("Bem vindo a " +empresa+ " hoje iremos iniciar o curso de "+curso);
+
+        var nome=prompt("Bem vindo a " +empresa+ " digite o seu nome.");
+        alert("Bem vindo " +nome+ " a " +empresa+ " hoje iremos iniciar o curso de "+curso);
+
+        function mensagem()
+        {
+            alert("Nossa " +nome+ " como voce é curioso ehmmmm!")
+        }
+
+        function validar()
+        {
+            var nome=formuser.nome.value;
+            var email=formuser.email.value;
+            var Senha=formuser.Senha.value;
+
+            if(nome==""){
+                alert("Favor preencher o campo nome!");
+                formuser.nome.focus();
+                return false;
+            }
+        }
+
+
+
+    </script>
+</head>
+<body>
+    <form id="formuser" method="POST">
+        Nome:<input type="text" name="nome"><br><br>
+        Email:<input type="text" name="email"><br><br>
+        Senha:<input type="password" name="senha"><br><br>
+
+        <input type="submit" onclick="return validar()" value="Enviar">
+
+
+
+    </form>
+
+    <!-- <input type="button" onclick="mensagem()" value="Clique Aqui." -->
+
+
+</body>
+</html>

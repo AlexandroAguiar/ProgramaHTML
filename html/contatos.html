@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+       
+    <link rel="stylesheet" href="..\css\estilos.css">
+
+</head>
+
+<body>
+    <table border="0" width="100%" cellpadding="15" cellspacing="10" class="menu">
+        <tr>
+            <td><a href="..\html\index.html"><img src="..\imagens\logo.png" width="250" height="90"></a></td>
+            <td>QUEM SOMOS</td>
+            <td>CURSOS ON LINE</td>
+            <td>GAMA EXPERIENCE</td>
+            <td>PARA EMPRESAS</td>
+            <td>CONTATO</td>
+            <td>CONTEUDO</td>
+
+
+        </tr>
+    </table>
+
+    <form id="formulario_curso" method="POST">
+        <fieldset>
+            <legend>Preencha o Formulário Abaixo.</legend>
+            <label>Nome:</label><input type="text" name="nome" class="campo_nome" required><br><br>
+            <label>Email:</label><input type="email" name="email" class="campo_email" required><br><br>
+            <label>Senha:</label><input type="password" name="senha" class="campo_senha"required><br><br>
+            <label>Infrome o Gênero:</label>
+            <input type="radio" name="opcao" value="Feminino" /> Feminino
+            <input type="radio" name="opcao" value="Masculino" /> Masculino
+            <input type="radio" name="opcao" value="Outros" /> Outros
+            <input type="radio" name="opcao" value="Não Sei" /> Não sei<br><br>
+
+            <label>Escolha o curso que deseja:</label>
+            <select required>
+                <option value=""></option>
+                <option value="XML">XML</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JAVASCRIPT">JAVA SCRIPT</option>
+
+            </select><br><br>
+            <label>Escolha o período que deseja cursar</label>
+            <input type="checkbox"  name="OPCAO" value="manhã"> Manhã
+            <input type="checkbox"  name="OPCAO" value="tarde"> Tarde
+            <input type="checkbox"  name="OPCAO" value="noite"> Noite<br><br>
+
+            <label>Mensagem</label><br><textarea col="100" rows="5"></textarea><br><br>
+            <label>Anexar o comprovante de endereço</label><input type="file" name="arquivo"><br><br>
+
+            <input type="submit" value="enviar">
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

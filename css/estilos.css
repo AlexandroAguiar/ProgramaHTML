@@ -1,0 +1,69 @@
+    P{
+        font-size: 12px;
+        font-family: Verdana;
+        text-align: center;
+        color:rgb(13, 24, 2);
+    }
+    body{
+        background-color: rgb(247, 255, 250);
+    }
+    label{
+        font-weight: bold;
+        color:rgb(170, 2, 2)
+    }
+
+    legend{
+        font-size: 12px;
+        font-family: Verdana;
+        color: rgb(0, 255, 85);
+    }
+
+    .menu{
+        font-size: 14px;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        color: darkorchid;
+    }
+    #formulario_curso{
+        background-color: rgb(161, 200, 233);
+        color: blue;
+    }
+    .campo_nome{
+        position: absolute;
+        left: 75px;
+        width: 380px;
+    }
+    .campo_email{
+        position: absolute;
+        left: 75px;
+        width: 380px;
+    }
+    .campo_senha{
+        position: absolute;
+        left: 75px;
+        width: 100px;
+    }
+
+    /*
+    .container{
+        border: 3px solid grey;
+        width: 100%;
+    }
+
+    .div1{
+        background-color: red;
+    }
+
+    .div2{
+        background-color: yellow;
+    }
+
+    .div3{
+        background-color: rgba(35, 35, 247, 0.836);
+    }
+
+    .div4{
+        background-color: green;
+    }
+*/
